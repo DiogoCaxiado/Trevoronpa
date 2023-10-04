@@ -113,6 +113,10 @@ h1 {
     height: 100%;
 }
 
+.banner {
+    display: none;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -124,4 +128,12 @@ footer {
     z-index: 2;
 
     background-color: var(--footer);
+}
+
+@media (min-width: 1280px) {
+    .banner {
+        display: block;
+        background-image: url("../assets/banner.jpg");
+        background-position: center;
+    }
 }
