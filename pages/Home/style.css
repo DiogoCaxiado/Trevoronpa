@@ -1,5 +1,4 @@
 :root {
-    --background: #EFEFEF;
     --border: #9C1E24;
     --primary: #FFBA10;
     --secondary: #741537;
@@ -7,15 +6,10 @@
 }
 
 .dark {
-    --background: #2F2C2C;
     --border: #FFBA10;
     --primary: #FFBA10;
     --secondary: #5A0945;
     --text: #FFFFFF;
-}
-
-body {
-    background-color: var(--background);
 }
 
 main {

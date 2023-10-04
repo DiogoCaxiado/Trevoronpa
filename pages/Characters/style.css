@@ -1,0 +1,150 @@
+:root {
+    --background: #EFEFEF;
+    --border: #D414A1;
+    --card: #EFEFEF;
+    --button: #D414A1;
+    --button-text: #FFBA10;
+    --title: #D414A1;
+    --text: #000;
+}
+
+.dark {
+    --background: #2F2C2C;
+    --border: #FFFFFF;
+    --card: #5A0945;
+    --button: #FFFFFF;
+    --button-text: #D414A1;
+    --title: #FFBA10;
+    --text: #FFFFFF;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin: 29px 0;
+    position: relative;
+    
+    gap: 29px;
+}
+
+.cards img {
+    width: 100%;
+}
+
+.card__rigth, .card__left {
+    display: flex;
+    gap: 18px;
+ 
+    padding: 21px;
+    height: 358px;
+
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    background-color: var(--card);
+}
+
+.card__rigth {
+    margin-right: 5%;
+    border-top-right-radius: 30px;
+    border-right: 1px solid var(--border);
+}
+
+.card__left {
+    margin-left: 5%;
+    border-top-left-radius: 30px;
+    border-left: 1px solid var(--border);
+}
+
+.cards .card__ultimate, .card__type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2%;
+
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 600;
+
+    border-radius: 15px;
+    background: var(--button);
+    color: var(--button-text);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card__type {
+    width: 130px;
+}
+
+.card__type {
+    margin: 13px 0;
+}
+
+.card__self {
+    margin: 20px 0;
+}
+
+.card__rigth .cards__ultimates {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 8px;
+    margin: 30px 0;
+}
+
+.card__left .cards__ultimates {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    margin: 20px 0;
+}
+
+.card__ultimate {
+    width: 170px;
+}
+
+.card__tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about {
+    width: 200px;
+}
+
+.cards h3 {
+    font-family: McLaren;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    
+    color: var(--title);
+}
+
+.cards strong {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    
+    color: var(--title);
+}
+
+.cards p {
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+
+    color: var(--text);
+}
+
+.card__tags img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card div {
+    width: 50%;
+}

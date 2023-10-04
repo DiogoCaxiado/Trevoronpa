@@ -6,7 +6,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=McLaren&family=Poppins:wght@300&family=Russo+One&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 
@@ -17,34 +17,128 @@
     <title>Trevoronpa - Personagens</title>
 </head>
 <body>
-     <header>
-        <button id="hamburguer" onclick="handleMenu()">☰</button>
+    <div class="menu__opacity">
+        <header>
+            <button id="hamburguer" onclick="handleMenu()">☰</button>
 
-        <h1>Trevoronpa</h1>
-    
-        <button id="buttonChange" onclick="handleChangeTheme()">
-            <span class="material-symbols-outlined" id="changeTheme" style="color: white; font-size: 40px;">
-                dark_mode
-            </span>
-        </button>
-    </header>
-
-    <section class="menu" style="display: none">
-        <div class="menu__top">
-            <button onclick="handleMenu()">
-                <span class="material-symbols-outlined" style="color: white; font-size: 40px;">
-                    close
+            <h1>Trevoronpa</h1>
+        
+            <button id="buttonChange" onclick="handleChangeTheme()">
+                <span class="material-symbols-outlined" id="changeTheme" style="color: white; font-size: 40px;">
+                    dark_mode
                 </span>
             </button>
-            <img src="../../assets/menu.png" alt="Ícone do urso de pelucia Monokuma que representa o rosto da franquia">
-        </div>
+        </header>
 
-        <div class="menu__options">
-           <a href="../Home/index.html">Inicial</a> 
-           <a href="../Characters/index.html">Personagens</a> 
-           <a href="#">Ordem cronológica</a> 
-           <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?l=portuguese" target="_blank">Compre Agora!</a> 
-        </div>
-    </section>
+        <section class="menu" style="display: none">
+            <div class="menu__top">
+                <button onclick="handleMenu()">
+                    <span class="material-symbols-outlined" style="color: white; font-size: 40px;">
+                        close
+                    </span>
+                </button>
+                <img src="../../assets/menu.png" alt="Ícone do urso de pelucia Monokuma que representa o rosto da franquia">
+            </div>
+
+            <div class="menu__options">
+            <a href="../Home/index.html">Inicial</a> 
+            <a href="../Characters/index.html">Personagens</a> 
+            <a href="#">Ordem cronológica</a> 
+            <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?l=portuguese" target="_blank">Compre Agora!</a> 
+            </div>
+        </section>
+
+        <section class="cards">
+            <section class="card__rigth">
+                <div class="card__tags">
+                    <img src="../../assets/Makoto.png" alt="">
+                    <span class="card__type">Protagonista</span>
+
+                    <div class="card__self">
+                        <strong>Personalidade</strong>
+                        <p>Natureza gentil, otimista e determinado</p>
+                    </div>
+                </div>
+
+                <div class="card__about">
+                    <h3>Makoto Naegi</h3>
+
+                    <div class="about">
+                        <strong>Sobre</strong>
+                        <p>
+                            Makoto Naegi é um personagem carismático e simboliza a ideia de que a esperança pode prevalecer sobre o desespero, tornando-se um ícone central na franquia "Danganronpa".  Sua determinação em manter a esperança em meio ao desespero o torna um líder relutante.
+                        </p>
+                    </div>
+
+                    <div class="cards__ultimates">
+                        <span class="card__ultimate">Ultimate Sortudo</span>
+                    <span class="card__ultimate">Ultimate Esperança</span>
+                    </div>
+                </div>
+            </section>
+        
+            <section class="card__left">
+                <div class="card__about">
+                    <h3>Kyoko Kirigiri</h3>
+                    
+                    <div class="about">
+                        <strong>Sobre</strong>
+                        
+                        <p>
+                            Kyoko Kirigiri é um personagem enigmático e carismático que se destaca por sua habilidade investigativa, resiliência e personalidade intrigante, ela desempenha um papel fundamental na investigação e resolução de assassinatos, ajudando o protagonista, Makoto Naegi.
+                        </p>
+                    </div>
+                        
+                    <div class="cards__ultimates">
+                        <span class="card__ultimate">Ultimate ???</span>
+                        <span class="card__ultimate">Ultimate detetive</span>
+                    </div>
+                    </div>
+                    
+                    <div class="card__tags">
+                        <img src="../../assets/Kyoko.png" alt="">
+                    <span class="card__type">Antagonista</span>
+                    
+                    <div class="card__self">
+                        <strong>Personalidade</strong>
+                        <p>Mestra da manipulação, sádica e instável.</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section class="card__rigth">
+                <div class="card__tags">
+                    <img src="../../assets/Junko.png" alt="">
+                    <span class="card__type">Antagonista</span>
+                    
+                    <div class="card__self">
+                        <strong>Personalidade</strong>
+                        <p>Mestra da manipulação, sádica e instável.</p>
+                    </div>  
+                </div>
+                
+                <div class="card__about">
+                    <h3>Junko Enoshima</h3>
+                    
+                    <div class="about">
+                        <strong>Sobre</strong>
+                        <p>
+                            Junko Enoshima é uma personagem multifacetada, conhecida por sua obsessão pelo desespero. Uma manipuladora habilidosa que alterna entre várias personas. Sua missão é criar um mundo dominado pelo desespero, e ela é uma figura complexa e aterrorizante na narrativa da série.
+                        </p>
+                    </div>  
+
+                    <div class="cards__ultimates">
+                        <span class="card__ultimate">Ultimate Fashionista</span>
+                        <span class="card__ultimate">Ultimate Desespero</span>
+                    </div>
+                </div>
+            </section>
+        </section> 
+        
+        <footer>
+            <img src="../../assets/Empresa.png" alt="Foto do logo da empresa SPIKE CHUNSOFT fundadora do jogo Danganronpa">
+            <img src="../../assets/steam.svg" alt="Ícone da steam">
+        </footer>
+    </div>
 </body>
 </html>
