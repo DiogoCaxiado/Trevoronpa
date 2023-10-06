@@ -21,14 +21,26 @@
         <header>
             <button id="hamburguer" onclick="handleMenu()">☰</button>
 
-            <h1>Trevoronpa</h1>
-        
+            <div class="header__desktop">
+                <h1>Trevoronpa</h1>
+                <nav>
+                    <a href="../../index.html">Inicial</a> 
+                    <a href="./pages/Characters/index.html">Personagens</a> 
+                    <a href="#">Ordem cronológica</a> 
+                    <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?l=portuguese" target="_blank">Compre Agora!</a> 
+                </nav>
+            </div>
+            
             <button id="buttonChange" onclick="handleChangeTheme()">
                 <span class="material-symbols-outlined" id="changeTheme" style="color: white; font-size: 40px;">
                     dark_mode
                 </span>
             </button>
         </header>
+
+        <section class="banner">
+            <img src="../../assets/banner.jpg" alt="banner da página">
+        </section>
 
         <section class="menu" style="display: none">
             <div class="menu__top">
@@ -41,7 +53,7 @@
             </div>
 
             <div class="menu__options">
-            <a href="../Home/index.html">Inicial</a> 
+            <a href="../../index.html">Inicial</a> 
             <a href="../Characters/index.html">Personagens</a> 
             <a href="#">Ordem cronológica</a> 
             <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?l=portuguese" target="_blank">Compre Agora!</a> 
@@ -97,7 +109,7 @@
                     
                     <div class="card__tags">
                         <img src="../../assets/Kyoko.png" alt="">
-                    <span class="card__type">Antagonista</span>
+                    <span class="card__type">Coadjuvante</span>
                     
                     <div class="card__self">
                         <strong>Personalidade</strong>
@@ -136,8 +148,14 @@
         </section> 
         
         <footer>
-            <img src="../../assets/Empresa.png" alt="Foto do logo da empresa SPIKE CHUNSOFT fundadora do jogo Danganronpa">
-            <img src="../../assets/steam.svg" alt="Ícone da steam">
+            <a href="https://www.spike-chunsoft.com/" class="empresa" target="_blank">
+                <div>
+                    
+                </div>
+            </a>
+            <a href="https://store.steampowered.com/app/413410/Danganronpa_Trigger_Happy_Havoc/?l=portuguese" target="_blank">
+                <img src="../../assets/steam.svg" alt="Ícone da steam">
+            </a>
         </footer>
     </div>
 </body>

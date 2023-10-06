@@ -55,6 +55,10 @@ main {
     padding: 30px 20px;
 }
 
+.container__content img{
+    width: 30%;
+}
+
 .container__content p {
     width: 60%;
 
@@ -62,4 +66,44 @@ main {
     font-size: 15px;
     font-weight: 500;
     color: var(--text);
+}
+
+@media (min-width: 1280px) {
+    main {
+        padding-top: 0;
+    }
+    
+    .banner {
+        display: block;
+        background-image: url("../../assets/banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        width: 100%;    
+        height: 800px;
+    }
+
+    .container__title {
+        height: 80px;
+    }
+
+    .container__title h2 {
+        font-family: Poppins;
+        font-size: 48px;
+    }
+
+    .container__content img{
+        width: 18%;
+    }
+
+    .container__content p {
+        font-family: Poppins;
+        font-size: 28px;
+        width: 70%;
+        padding: 2%;
+        line-height: 168%; 
+        
+        color: var(--text);
+    }
 }
