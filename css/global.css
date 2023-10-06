@@ -173,9 +173,6 @@ footer .empresa{
     }
 
     footer .empresa{
-        background-image: url("../assets/empresa.png");
-        background-repeat: no-repeat;
-        background-size: contain;
         width: 100%;
         height: 78px;
     }
